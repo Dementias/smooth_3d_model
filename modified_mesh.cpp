@@ -54,7 +54,6 @@ double ModifiedMesh::SumVertexAngle (uint32_t vertex_index)
     double angle = 0;
     aiVector3D a, b, c;
 
-    // TODO for(auto lala: asdasd)
     for (const auto & triangle_index: edges_[vertex_index])
     {
         for (int j = 0; j < 3; ++j)
